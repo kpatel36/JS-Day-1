@@ -439,14 +439,14 @@ while (indexpointer < animals.length){
     indexpointer++};
 
 
+let arr1 = ["Max","Baseball","Reboot","Goku","Trucks","Rodger"]
 function replaceEvens(arr){
     for (let i = 0; i < arr1.length; i++) {
-        if (i/2===0) {
+        if (i%2===0) {
             arr[i] = "even index";
-            }
         }
-    return arr
+    }
 }
-let arr1 = ["Max","Baseball","Reboot","Goku","Trucks","Rodger"]
-let answer2 = replaceEvens(arr1)
+let answer2= replaceEvens(arr1)
 console.log(answer2)
+
